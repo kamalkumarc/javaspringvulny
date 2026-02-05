@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:25.0.1_8-jdk-jammy
 
 RUN mkdir /javavulny /app
 COPY . /javavulny/
